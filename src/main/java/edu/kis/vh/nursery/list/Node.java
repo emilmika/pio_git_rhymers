@@ -8,5 +8,8 @@ public class Node {
 	public Node(int i) {
 		value = i;
 	}
-	
+
+	public int getValue() {
+		return value;
+	}
 }
